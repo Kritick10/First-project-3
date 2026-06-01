@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:#050816;
+  color:white;
+  min-height:100vh;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 50px;
+}
+
+.logo{
+  font-size:24px;
+  font-weight:bold;
+}
+
+.btn,
+.hero-btn,
+button{
+  padding:12px 24px;
+  border:none;
+  border-radius:10px;
+  background:#3b82f6;
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.hero{
+  text-align:center;
+  padding:120px 20px;
+}
+
+.hero h1{
+  font-size:60px;
+  margin-bottom:20px;
+}
+
+.hero p{
+  max-width:700px;
+  margin:auto;
+  color:#cfcfcf;
+  margin-bottom:30px;
+}
+
+.chat-container{
+  width:90%;
+  max-width:900px;
+  margin:auto;
+  padding:30px;
+}
+
+#messages{
+  background:#0f172a;
+  min-height:400px;
+  padding:20px;
+  border-radius:12px;
+  margin-bottom:20px;
+}
+
+.ai-message,
+.user-message{
+  margin-bottom:15px;
+  padding:10px;
+  border-radius:10px;
+}
+
+.ai-message{
+  background:#1e293b;
+}
+
+.user-message{
+  background:#2563eb;
+}
+
+.input-area{
+  display:flex;
+  gap:10px;
+}
+
+input{
+  flex:1;
+  padding:12px;
+  border-radius:10px;
+  border:none;
+}
